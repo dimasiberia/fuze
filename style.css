@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -64,12 +65,14 @@ a {
     justify-content: space-around;
 }
 .card{
-    background-color: red;
     width: 300px;
     height: 400px;
     text-align: center;
     padding: 20px;
     margin: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px black;
 }
 .photo-id{
     background-color: black;
@@ -78,6 +81,7 @@ a {
 .news{
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
 }
 footer{
     display: flex;
