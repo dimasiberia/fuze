@@ -56,15 +56,13 @@ a {
     justify-content: space-between;
 }
 
-.header-right {
-    float: right;
-  }
+
   
 header a:hover{
     background-color: lightblue;
     border-radius: 20px;
     color: black;
-    padding: 20px;
+    padding:10px 20px;
 }
 
 .people-container{
