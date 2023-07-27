@@ -58,11 +58,21 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 50px;
+    padding: 0 20px;
 }
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
+}
+#head{
+    position: absolute;
+    left: 20px;
+}
+header a:hover{
+    background-color: lightblue;
+    border-radius: 20px;
+    color: black;
 }
 
 .people-container{
