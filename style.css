@@ -40,17 +40,6 @@ header {
     overflow: hidden;
 }
 
-ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-}
-ul li{
-    margin: 0 20px;
-}
-nav{
-    margin: 0 20px;
-}
 
 a {
     text-decoration: none;
@@ -60,6 +49,11 @@ a {
     font-weight: 400;
     line-height: 50px;
     padding: 0 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-right {
