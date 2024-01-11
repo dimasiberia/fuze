@@ -87,7 +87,7 @@ header a:hover {
 }
 
 .image-news {
-    max-width: 600px;
+    width: 90%;
     margin: auto;
 }
 
